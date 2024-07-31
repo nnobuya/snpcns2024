@@ -1,0 +1,13 @@
+# ----- pizbuin control (since rv 230) ------------------------------- #
+#   lv_run,      flowflag,         debug,      bin out,
+         0        .false.        .false.        .true.
+#  out abundance,
+           .true.
+#        screen,       nuhydro,   nr_min,   nr_max,
+         .true.        .false.         1         5
+#  nse_temp (GK),
+     1.00000e+01
+
+# ----- MC run parameters -------------------------------------------- #
+#     n_mc,    n_out,    n_var,
+         0       146      4897
