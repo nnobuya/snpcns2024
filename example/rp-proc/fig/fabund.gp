@@ -15,7 +15,4 @@ se yl 'Abundance'
 
 p \
 '../run_001/res/fabund_a.dat' u 1:2 w l ti 'Schatz',\
-'../run_002/res/fabund_a.dat' u 1:2 w l ti '1 zone (Kyushu)'
-#p \
-#'../run_001/in/hydro.dat' u ($1-300):3 w l ti 'Schatz',\
-#'../run_002/in/hydro.dat' u ($1-700):3 w l ti '1 zone (Kyushu)'
+'../run_002/res/fabund_a.dat' u 1:2 w l ti 'Dohi'

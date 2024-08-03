@@ -15,7 +15,7 @@ se ytics 0, 1.e6
 se mytics 5
 p \
 '../run_001/in/hydro.dat' u ($1-300):3 w l ti 'Schatz',\
-'../run_002/in/hydro.dat' u ($1-700):3 w l ti '1 zone (Kyushu)'
+'../run_002/in/hydro.dat' u ($1-700):3 w l ti '1 zone (Dohi)'
 
 se yr [0:2]
 se yl 'Temperature, GK'
@@ -23,4 +23,4 @@ se ytics 0, 0.5
 se mytics 5
 p \
 '../run_001/in/hydro.dat' u ($1-300):2 w l ti 'Schatz',\
-'../run_002/in/hydro.dat' u ($1-700):2 w l ti '1 zone (Kyushu)'
+'../run_002/in/hydro.dat' u ($1-700):2 w l ti '1 zone (Dohi)'
